@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:background="#ffc98533" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <TextView n1:textSize="20.0sp" n1:textStyle="bold" n1:gravity="center" n1:layout_gravity="center_horizontal" n1:id="@id/textView" n1:background="#ffa06230" n1:layout_width="fill_parent" n1:layout_height="50.0dip" n1:autoText="false" />
+    <ListView n1:id="@id/list_view" n1:clickable="false" n1:layout_width="fill_parent" n1:layout_height="fill_parent" />
+</LinearLayout>

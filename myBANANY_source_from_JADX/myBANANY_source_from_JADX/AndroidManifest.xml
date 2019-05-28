@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.madyapadmaonline.mybanany.mybanany">
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.CLEAR_APP_CACHE"/>
+    <application android:allowBackup="true" android:debuggable="true" android:icon="@mipmap/ic_launcher" android:label="myBANANY" android:supportsRtl="true" android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name="com.madyapadmaonline.mybanany.mybanany.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.madyapadmaonline.mybanany.mybanany.MainActivity"/>
+        <activity android:name="com.madyapadmaonline.mybanany.mybanany.ClientActivity" android:screenOrientation="portrait"/>
+        <service android:name="com.madyapadmaonline.mybanany.mybanany.RemoteDownloadService"/>
+        <service android:name="com.madyapadmaonline.mybanany.mybanany.RemoteUploadService"/>
+        <service android:name="com.madyapadmaonline.mybanany.mybanany.UploadServiceHandler"/>
+        <activity android:name="com.madyapadmaonline.mybanany.mybanany.DummySendActivity" android:theme="@android:style/Theme.DeviceDefault.Light.Dialog">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="*/*"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND_MULTIPLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="*/*"/>
+            </intent-filter>
+        </activity>
+        <meta-data android:name="android.support.VERSION" android:value="26.1.0"/>
+        <meta-data android:name="android.arch.lifecycle.VERSION" android:value="27.0.0-SNAPSHOT"/>
+    </application>
+</manifest>

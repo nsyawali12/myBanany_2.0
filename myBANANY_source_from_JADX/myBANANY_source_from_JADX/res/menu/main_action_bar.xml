@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item n1:icon="@drawable/plus" n1:id="@id/add_server" n1:visible="false" n1:title="Add" n2:showAsAction="always"
+      xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <item n3:id="@id/about" n3:title="About" n4:showAsAction="never"
+      xmlns:n3="http://schemas.android.com/apk/res/android" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+</menu>

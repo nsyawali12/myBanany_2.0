@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="vertical" n1:background="#ff181513" n1:layout_width="fill_parent" n1:layout_height="fill_parent">
+        <ImageView n1:layout_gravity="center_horizontal" n1:id="@id/imageView" n1:layout_width="305.0dip" n1:layout_height="224.0dip" n1:src="@drawable/ic_launcher" />
+        <TextView n1:textSize="25.0dip" n1:layout_gravity="center_horizontal" n1:id="@id/textView2" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_margin="20.0dip" n1:text="myBanany is a tool that connect your phone to the BANANY via Network" n1:textAlignment="center" />
+        <TextView n1:textSize="20.0dip" n1:layout_gravity="center_horizontal" n1:id="@id/textView3" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="10.0dip" n1:text="Developed by BANANY R D" />
+        <TextView n1:layout_gravity="center_horizontal" n1:id="@id/textView4" n1:visibility="visible" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="20.0dip" n1:text="Version 1.0" />
+    </LinearLayout>
+</ScrollView>

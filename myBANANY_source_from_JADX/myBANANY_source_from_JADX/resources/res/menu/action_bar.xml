@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/plus" android:id="@+id/plus" android:title="Create" NOT_FOUND_NS_0xf_http://schemas.android.com/apk/res-auto:showAsAction="always"/>
+    <item android:icon="@drawable/trash" android:id="@+id/trash" android:title="Delete" NOT_FOUND_NS_0xf_http://schemas.android.com/apk/res-auto:showAsAction="always"/>
+    <item android:icon="@drawable/download" android:id="@+id/download" android:title="Download" NOT_FOUND_NS_0xf_http://schemas.android.com/apk/res-auto:showAsAction="always"/>
+    <item android:icon="@drawable/upload" android:id="@+id/upload" android:title="Upload" NOT_FOUND_NS_0xf_http://schemas.android.com/apk/res-auto:showAsAction="always"/>
+    <item android:icon="@drawable/paste" android:id="@+id/copyPaste" android:title="Paste" NOT_FOUND_NS_0xf_http://schemas.android.com/apk/res-auto:showAsAction="always"/>
+    <item android:icon="@drawable/cancel" android:id="@+id/cancelCopy" android:title="Cancel" NOT_FOUND_NS_0xf_http://schemas.android.com/apk/res-auto:showAsAction="always"/>
+    <item android:icon="@drawable/paste" android:id="@+id/movePaste" android:title="Paste" NOT_FOUND_NS_0xf_http://schemas.android.com/apk/res-auto:showAsAction="always"/>
+    <item android:icon="@drawable/cancel" android:id="@+id/cancelMove" android:title="Cancel" NOT_FOUND_NS_0xf_http://schemas.android.com/apk/res-auto:showAsAction="always"/>
+    <item android:id="@+id/rename" android:title="Rename" NOT_FOUND_NS_0xf_http://schemas.android.com/apk/res-auto:showAsAction="never"/>
+    <item android:id="@+id/copy" android:title="Copy" NOT_FOUND_NS_0xf_http://schemas.android.com/apk/res-auto:showAsAction="never"/>
+    <item android:id="@+id/move" android:title="Move" NOT_FOUND_NS_0xf_http://schemas.android.com/apk/res-auto:showAsAction="never"/>
+    <item android:id="@+id/selectall" android:title="Select all" NOT_FOUND_NS_0xf_http://schemas.android.com/apk/res-auto:showAsAction="never"/>
+    <item android:id="@+id/clearselection" android:title="Clear Selection" NOT_FOUND_NS_0xf_http://schemas.android.com/apk/res-auto:showAsAction="never"/>
+</menu>

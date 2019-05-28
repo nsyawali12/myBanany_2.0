@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item n1:icon="@drawable/plus" n1:id="@id/plus" n1:title="Create" n2:showAsAction="always"
+      xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <item n3:icon="@drawable/trash" n3:id="@id/trash" n3:title="Delete" n4:showAsAction="always"
+      xmlns:n3="http://schemas.android.com/apk/res/android" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+    <item n5:icon="@drawable/download" n5:id="@id/download" n5:title="Download" n6:showAsAction="always"
+      xmlns:n5="http://schemas.android.com/apk/res/android" xmlns:n6="http://schemas.android.com/apk/res-auto" />
+    <item n7:icon="@drawable/upload" n7:id="@id/upload" n7:title="Upload" n8:showAsAction="always"
+      xmlns:n7="http://schemas.android.com/apk/res/android" xmlns:n8="http://schemas.android.com/apk/res-auto" />
+    <item n9:icon="@drawable/paste" n9:id="@id/copyPaste" n9:title="Paste" n10:showAsAction="always"
+      xmlns:n9="http://schemas.android.com/apk/res/android" xmlns:n10="http://schemas.android.com/apk/res-auto" />
+    <item n11:icon="@drawable/cancel" n11:id="@id/cancelCopy" n11:title="Cancel" n12:showAsAction="always"
+      xmlns:n11="http://schemas.android.com/apk/res/android" xmlns:n12="http://schemas.android.com/apk/res-auto" />
+    <item n13:icon="@drawable/paste" n13:id="@id/movePaste" n13:title="Paste" n14:showAsAction="always"
+      xmlns:n13="http://schemas.android.com/apk/res/android" xmlns:n14="http://schemas.android.com/apk/res-auto" />
+    <item n15:icon="@drawable/cancel" n15:id="@id/cancelMove" n15:title="Cancel" n16:showAsAction="always"
+      xmlns:n15="http://schemas.android.com/apk/res/android" xmlns:n16="http://schemas.android.com/apk/res-auto" />
+    <item n17:id="@id/rename" n17:title="Rename" n18:showAsAction="never"
+      xmlns:n17="http://schemas.android.com/apk/res/android" xmlns:n18="http://schemas.android.com/apk/res-auto" />
+    <item n19:id="@id/copy" n19:title="Copy" n20:showAsAction="never"
+      xmlns:n19="http://schemas.android.com/apk/res/android" xmlns:n20="http://schemas.android.com/apk/res-auto" />
+    <item n21:id="@id/move" n21:title="Move" n22:showAsAction="never"
+      xmlns:n21="http://schemas.android.com/apk/res/android" xmlns:n22="http://schemas.android.com/apk/res-auto" />
+    <item n23:id="@id/selectall" n23:title="Select all" n24:showAsAction="never"
+      xmlns:n23="http://schemas.android.com/apk/res/android" xmlns:n24="http://schemas.android.com/apk/res-auto" />
+    <item n25:id="@id/clearselection" n25:title="Clear Selection" n26:showAsAction="never"
+      xmlns:n25="http://schemas.android.com/apk/res/android" xmlns:n26="http://schemas.android.com/apk/res-auto" />
+</menu>

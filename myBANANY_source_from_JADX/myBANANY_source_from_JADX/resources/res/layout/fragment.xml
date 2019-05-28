@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="#c98533" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="20sp" android:textStyle="bold" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/textView" android:background="#a06230" android:layout_width="match_parent" android:layout_height="50dp" android:autoText="false"/>
+    <ListView android:id="@+id/list_view" android:clickable="false" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</LinearLayout>

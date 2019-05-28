@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item n1:icon="@drawable/save" n1:id="@id/saveServer" n1:title="Save" n2:showAsAction="always"
+      xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <item n3:icon="@drawable/testconnection" n3:id="@id/testConnection" n3:visible="false" n3:title="Test Connection" n4:showAsAction="always"
+      xmlns:n3="http://schemas.android.com/apk/res/android" xmlns:n4="http://schemas.android.com/apk/res-auto" />
+</menu>
