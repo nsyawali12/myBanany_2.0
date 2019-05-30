@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<android.support.constraint.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".SplashActivity">
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="169dp"
         android:layout_height="251dp"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="203dp"
-        app:srcCompat="@drawable/logo_black" />
+        android:src="@drawable/logo_black"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="240dp"
+        tools:ignore="MissingConstraints" />
 
-</RelativeLayout>
+</android.support.constraint.ConstraintLayout>

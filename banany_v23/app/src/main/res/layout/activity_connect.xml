@@ -1,12 +1,12 @@
-r<?xml version="1.0" encoding="utf-8"?>
-<ScrollView
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#333333"
-    tools:context=".StartedActivity">
+    tools:context=".ConnectActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -21,14 +21,14 @@ r<?xml version="1.0" encoding="utf-8"?>
 
             <ImageView
                 android:id="@+id/imageView2"
-                android:layout_width="170dp"
                 android:layout_height="250dp"
+                android:layout_width="170dp"
                 android:layout_alignParentTop="true"
-                android:layout_marginStart="130dp"
+                android:layout_marginStart= "130dp"
                 android:layout_marginTop="22dp"
                 android:layout_gravity="center"
                 android:gravity="center"
-                app:srcCompat="@drawable/logo_tutorial" />
+                app:srcCompat="@drawable/logo_tutorial"/>
 
             <TextView
                 android:id="@+id/textIntro1"
@@ -85,36 +85,20 @@ r<?xml version="1.0" encoding="utf-8"?>
                 android:textSize="25dp" />
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/button3"
                 android:layout_width="260dp"
-                android:layout_height="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
                 android:layout_marginStart="80dp"
                 android:layout_marginTop="390dp"
                 android:background="@drawable/wadah_button"
-                android:text="Let's Get Started Tutorial"
-                android:layout_gravity="center"
-                android:textAllCaps="false"
-                android:textColor="#FFF"
-                android:textSize="16dp" />
-
-            <Button
-                android:id="@+id/button3"
-                android:layout_width="260dp"
-                android:layout_height="match_parent"
-                android:layout_marginStart="80dp"
-                android:layout_marginTop="470dp"
-                android:background="@drawable/wadah_button"
-                android:layout_gravity="center"
                 android:text="Connect To Banany Device"
                 android:textAllCaps="false"
                 android:textColor="#FFF"
                 android:textSize="16dp" />
-
-
         </RelativeLayout>
+
 
     </LinearLayout>
 
-
-
-</ScrollView>
+</android.support.constraint.ConstraintLayout>
