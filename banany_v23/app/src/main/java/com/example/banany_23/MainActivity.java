@@ -1,14 +1,9 @@
 package com.example.banany_23;
 
 import android.app.Activity;
+import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-// import android.databinding.DataBindingUtil;
-// import android.support.v7.widget.LinearLayoutManager;
-
-import com.example.banany_23.R;
-// import com.example.banany_23.databinding.ActivityMainBanding;
-// import com.example.banany_23.presentation.model.MainViewModel;
 
 
 /*
@@ -28,9 +23,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //ActivityMainBinding binding = DataBindingUtil.setContentView(this, R.layout.Activity_main);
-        //MainViewModel viewModel = new MainViewModel(this);
-        //binding.setModel(viewModel);
+
     }
 
 

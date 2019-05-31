@@ -4,8 +4,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.os.Handler;
 import android.content.Intent;
-
-import com.example.banany_23.R;
+import android.util.SparseLongArray;
 
 
 /**
@@ -16,28 +15,17 @@ import com.example.banany_23.R;
 
 public class SplashActivity extends AppCompatActivity {
 
-    /**
-     * The Duration of the splash screen.
-     *
-    */
     private static int SPLASH_TIME_OUT = 4000;
-
-    /**
-    *  Method called at activity creation
-     * @param savedInstanceState the saved instance state.
-    * */
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_splash);
-
+        setContentView(R.layout.activity_main);
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent i = new Intent(SplashActivity.this, ConnectActivity.class);
-                startActivity(i);
-
+                Intent homeIntent = new Intent(SplashActivity.this, ConnectActivity.class);
+                startActivity(homeIntent);
                 finish();
             }
         }, SPLASH_TIME_OUT);
