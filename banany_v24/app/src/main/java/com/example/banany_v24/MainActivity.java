@@ -2,6 +2,8 @@ package com.example.banany_v24;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.databinding.DataBindingUtil;
+
 
 public class MainActivity extends AppCompatActivity {
 
