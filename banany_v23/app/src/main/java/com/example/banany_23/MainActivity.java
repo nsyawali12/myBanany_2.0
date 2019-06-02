@@ -129,10 +129,21 @@ public class MainActivity extends AppCompatActivity {
     public void setExtras(Intent intent, String ServerName){
         Cursor cursor = this.helper.getServerDetails(ServerName);
         cursor.moveToFirst();
-        intent.putExtra()
+        intent.putExtra("SERVER_NAME", cursor.getString(cursor.getColumnIndex(FtpDatabaseHelper.COLUMN_SERVER_NAME)));
+        intent.putExtra("HOST_NAME", cursor.getString(cursor.getColumnIndex(FtpDatabaseHelper.COLUMN_HOST_NAME)));
+        intent.putExtra("PORT", cursor.getString(cursor.getColumnIndex(FtpDatabaseHelper.COLUMN_PORT)));
+        intent.putExtra("USERNAME", cursor.getString(cursor.getColumnIndex(FtpDatabaseHelper.COLUMN_USERNAME)));
+        intent.putExtra("PASSWORD", cursor.getString(cursor.getColumnIndex(FtpDatabaseHelper.COLUMN_PASSWORD)));
+        intent.putExtra("LOCAL_DIRECTORY", cursor.getString(cursor.getColumnIndex(FtpDatabaseHelper.COLUMN_LOCAL_DIR)));
+        intent.putExtra("REMOTE_DIRECTORY", cursor.getString(cursor.getColumnIndex(FtpDatabaseHelper.COLUMN_REMOTE_DIR)));
     }
 
-
+    public void getPermissions(){
+        if (ContextCompat.checkSelfPermission(this, "android.permission.READ_EXTERNAL_STORAGE") != 0 && VERSION.SDK_INT >= 16){
+            Log.e("banany", "Permission request initiated");
+            ActivityCompat.requestPermissions(this, new String[]{"android.permission.WRITE_EXTERNAL_STORAGE"}, this.MY_PERMISSIONS_REQUEST_WRITE_EXTERNAL_STORAGE);
+        }
+    }
 
 
 }

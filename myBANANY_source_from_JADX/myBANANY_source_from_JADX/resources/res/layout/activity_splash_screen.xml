@@ -1,7 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" android:theme="@style/Theme.AppCompat.NoActionBar" android:background="#ff181513" android:layout_width="match_parent" android:layout_height="match_parent">
-    <ImageView android:id="@+id/imageView8" android:layout_width="219dp" android:layout_height="208dp" android:layout_marginBottom="96dp" NOT_FOUND_NS_0x1a_http://schemas.android.com/apk/res-auto:layout_constraintBottom_toBottomOf="@+id/imageView7" NOT_FOUND_NS_0x1a_http://schemas.android.com/apk/res-auto:layout_constraintEnd_toEndOf="0" NOT_FOUND_NS_0x1a_http://schemas.android.com/apk/res-auto:layout_constraintHorizontal_bias="0.503" NOT_FOUND_NS_0x1a_http://schemas.android.com/apk/res-auto:layout_constraintLeft_toLeftOf="0" NOT_FOUND_NS_0x1a_http://schemas.android.com/apk/res-auto:layout_constraintRight_toRightOf="0" NOT_FOUND_NS_0x1a_http://schemas.android.com/apk/res-auto:layout_constraintStart_toStartOf="0" NOT_FOUND_NS_0x1a_http://schemas.android.com/apk/res-auto:srcCompat="@drawable/iconsplash1"/>
-    <ImageView android:id="@+id/imageView7" android:layout_width="0dp" android:layout_height="0dp" android:layout_marginTop="303dp" android:layout_marginBottom="165dp" NOT_FOUND_NS_0x1a_http://schemas.android.com/apk/res-auto:layout_constraintBottom_toTopOf="@+id/textmyBANANY" NOT_FOUND_NS_0x1a_http://schemas.android.com/apk/res-auto:layout_constraintEnd_toEndOf="0" NOT_FOUND_NS_0x1a_http://schemas.android.com/apk/res-auto:layout_constraintStart_toStartOf="0" NOT_FOUND_NS_0x1a_http://schemas.android.com/apk/res-auto:layout_constraintTop_toTopOf="0" NOT_FOUND_NS_0x1a_http://schemas.android.com/apk/res-auto:srcCompat="@drawable/iconsplash2"/>
-    <TextView android:textSize="35sp" android:textColor="#ffffff" android:id="@+id/textmyBANANY" android:visibility="gone" android:layout_width="188dp" android:layout_height="0dp" android:layout_marginBottom="15dp" android:text="myBANANY" NOT_FOUND_NS_0x1a_http://schemas.android.com/apk/res-auto:layout_constraintBottom_toBottomOf="0" NOT_FOUND_NS_0x1a_http://schemas.android.com/apk/res-auto:layout_constraintEnd_toEndOf="0" NOT_FOUND_NS_0x1a_http://schemas.android.com/apk/res-auto:layout_constraintStart_toStartOf="0" NOT_FOUND_NS_0x1a_http://schemas.android.com/apk/res-auto:layout_constraintTop_toBottomOf="@+id/imageView7"/>
-    <TextView android:textSize="20sp" android:id="@+id/textVersion" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15dp" android:text="v1.0" NOT_FOUND_NS_0x1a_http://schemas.android.com/apk/res-auto:layout_constraintBottom_toBottomOf="0" NOT_FOUND_NS_0x1a_http://schemas.android.com/apk/res-auto:layout_constraintEnd_toStartOf="@+id/textmyBANANY" NOT_FOUND_NS_0x1a_http://schemas.android.com/apk/res-auto:layout_constraintHorizontal_bias="0.491" NOT_FOUND_NS_0x1a_http://schemas.android.com/apk/res-auto:layout_constraintLeft_toLeftOf="0" NOT_FOUND_NS_0x1a_http://schemas.android.com/apk/res-auto:layout_constraintRight_toRightOf="0" NOT_FOUND_NS_0x1a_http://schemas.android.com/apk/res-auto:layout_constraintStart_toStartOf="@+id/textmyBANANY" NOT_FOUND_NS_0x1a_http://schemas.android.com/apk/res-auto:layout_constraintTop_toBottomOf="@+id/imageView7" NOT_FOUND_NS_0x1a_http://schemas.android.com/apk/res-auto:layout_constraintVertical_bias="0.99"/>
+
+<android.support.constraint.ConstraintLayout 
+xmlns:android="http://schemas.android.com/apk/res/android" 
+android:theme="@style/Theme.AppCompat.NoActionBar" 
+android:background="#ff181513" 
+android:layout_width="match_parent" 
+android:layout_height="match_parent">
+
+    <ImageView 
+    android:id="@+id/imageView8" 
+    android:layout_width="219dp" 
+    android:layout_height="208dp" 
+    android:layout_marginBottom="96dp" NOT_FOUND_NS_0x1a_http://schemas.android.com/apk/res-auto:layout_constraintBottom_toBottomOf="@+id/imageView7" NOT_FOUND_NS_0x1a_http://schemas.android.com/apk/res-auto:layout_constraintEnd_toEndOf="0" NOT_FOUND_NS_0x1a_http://schemas.android.com/apk/res-auto:layout_constraintHorizontal_bias="0.503" NOT_FOUND_NS_0x1a_http://schemas.android.com/apk/res-auto:layout_constraintLeft_toLeftOf="0" NOT_FOUND_NS_0x1a_http://schemas.android.com/apk/res-auto:layout_constraintRight_toRightOf="0" NOT_FOUND_NS_0x1a_http://schemas.android.com/apk/res-auto:layout_constraintStart_toStartOf="0" NOT_FOUND_NS_0x1a_http://schemas.android.com/apk/res-auto:srcCompat="@drawable/iconsplash1"/>
+    
+    <ImageView 
+    android:id="@+id/imageView7" 
+    android:layout_width="0dp" 
+    android:layout_height="0dp" 
+    android:layout_marginTop="303dp" 
+    android:layout_marginBottom="165dp" NOT_FOUND_NS_0x1a_http://schemas.android.com/apk/res-auto:layout_constraintBottom_toTopOf="@+id/textmyBANANY" NOT_FOUND_NS_0x1a_http://schemas.android.com/apk/res-auto:layout_constraintEnd_toEndOf="0" NOT_FOUND_NS_0x1a_http://schemas.android.com/apk/res-auto:layout_constraintStart_toStartOf="0" NOT_FOUND_NS_0x1a_http://schemas.android.com/apk/res-auto:layout_constraintTop_toTopOf="0" NOT_FOUND_NS_0x1a_http://schemas.android.com/apk/res-auto:srcCompat="@drawable/iconsplash2"/>
+    
+    <TextView 
+    android:textSize="35sp" 
+    android:textColor="#ffffff" 
+    android:id="@+id/textmyBANANY" 
+    android:visibility="gone" 
+    android:layout_width="188dp"
+     android:layout_height="0dp" 
+     android:layout_marginBottom="15dp" 
+     android:text="myBANANY" NOT_FOUND_NS_0x1a_http://schemas.android.com/apk/res-auto:layout_constraintBottom_toBottomOf="0" NOT_FOUND_NS_0x1a_http://schemas.android.com/apk/res-auto:layout_constraintEnd_toEndOf="0" NOT_FOUND_NS_0x1a_http://schemas.android.com/apk/res-auto:layout_constraintStart_toStartOf="0" NOT_FOUND_NS_0x1a_http://schemas.android.com/apk/res-auto:layout_constraintTop_toBottomOf="@+id/imageView7"/>
+    
+    <TextView 
+    android:textSize="20sp" 
+    android:id="@+id/textVersion" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:layout_marginBottom="15dp" 
+    android:text="v1.0" NOT_FOUND_NS_0x1a_http://schemas.android.com/apk/res-auto:layout_constraintBottom_toBottomOf="0" NOT_FOUND_NS_0x1a_http://schemas.android.com/apk/res-auto:layout_constraintEnd_toStartOf="@+id/textmyBANANY" NOT_FOUND_NS_0x1a_http://schemas.android.com/apk/res-auto:layout_constraintHorizontal_bias="0.491" NOT_FOUND_NS_0x1a_http://schemas.android.com/apk/res-auto:layout_constraintLeft_toLeftOf="0" NOT_FOUND_NS_0x1a_http://schemas.android.com/apk/res-auto:layout_constraintRight_toRightOf="0" NOT_FOUND_NS_0x1a_http://schemas.android.com/apk/res-auto:layout_constraintStart_toStartOf="@+id/textmyBANANY" NOT_FOUND_NS_0x1a_http://schemas.android.com/apk/res-auto:layout_constraintTop_toBottomOf="@+id/imageView7" NOT_FOUND_NS_0x1a_http://schemas.android.com/apk/res-auto:layout_constraintVertical_bias="0.99"/>
 </android.support.constraint.ConstraintLayout>

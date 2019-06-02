@@ -1,8 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout n1:orientation="vertical" n1:background="#ffc98533" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+<LinearLayout
+n1:orientation="vertical"
+n1:background="#ffc98533"
+n1:layout_width="fill_parent"
+n1:layout_height="fill_parent"
   xmlns:n1="http://schemas.android.com/apk/res/android">
-    <android.support.v7.widget.Toolbar n1:theme="@style/ThemeOverlay.AppCompat.ActionBar" n1:id="@id/my_toolbar" n1:background="#ffa06230" n1:layout_width="fill_parent" n1:layout_height="?actionBarSize" n2:popupTheme="@style/ThemeOverlay.AppCompat.Light" xmlns:n2="http://schemas.android.com/apk/res-auto" />
-    <android.support.v4.view.ViewPager n1:id="@id/pager" n1:layout_width="fill_parent" n1:layout_height="fill_parent">
-        <android.support.v4.view.PagerTabStrip n1:layout_gravity="top" n1:id="@id/pager_header" n1:background="#ffc98533" n1:paddingTop="4.0dip" n1:paddingBottom="4.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content" />
+    <android.support.v7.widget.Toolbar
+    n1:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+    n1:id="@id/my_toolbar"
+    n1:background="#ffa06230"
+    n1:layout_width="fill_parent"
+    n1:layout_height="?actionBarSize"
+    n2:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+    xmlns:n2="http://schemas.android.com/apk/res-auto" />
+
+    <android.support.v4.view.ViewPager
+    n1:id="@id/pager" n1:layout_width="fill_parent"
+    n1:layout_height="fill_parent">
+
+        <android.support.v4.view.PagerTabStrip 
+        n1:layout_gravity="top" 
+        n1:id="@id/pager_header" 
+        n1:background="#ffc98533" 
+        n1:paddingTop="4.0dip" 
+        n1:paddingBottom="4.0dip" 
+        n1:layout_width="fill_parent" 
+        n1:layout_height="wrap_content" />
+        
     </android.support.v4.view.ViewPager>
 </LinearLayout>

@@ -2,17 +2,96 @@
 <LinearLayout n1:orientation="vertical" n1:background="@android:color/holo_green_light" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
   xmlns:n1="http://schemas.android.com/apk/res/android">
     <android.support.v7.widget.Toolbar n1:theme="@style/ThemeOverlay.AppCompat.ActionBar" n1:id="@id/mainToolbar" n1:background="#ff4d6619" n1:layout_width="fill_parent" n1:layout_height="?actionBarSize" n2:popupTheme="@style/ThemeOverlay.AppCompat.Light" xmlns:n2="http://schemas.android.com/apk/res-auto" />
-    <ScrollView n1:layout_width="fill_parent" n1:layout_height="fill_parent">
-        <LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="fill_parent">
-            <TextView n1:textStyle="bold" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="10.0dip" n1:layout_marginTop="40.0dip" n1:text="Server Details..." />
-            <EditText n1:id="@id/editTextServerName" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="10.0dip" n1:layout_marginTop="10.0dip" n1:layout_marginRight="60.0dip" n1:hint="Server Name" />
-            <EditText n1:id="@id/editTextHostName" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="10.0dip" n1:layout_marginTop="20.0dip" n1:layout_marginRight="60.0dip" n1:hint="Host Name  ( IP Address )" />
-            <EditText n1:id="@id/editTextPort" n1:layout_width="150.0dip" n1:layout_height="wrap_content" n1:layout_marginLeft="10.0dip" n1:layout_marginTop="10.0dip" n1:layout_marginRight="60.0dip" n1:hint="Port (Default:21)" n1:ems="10" n1:inputType="number" />
-            <TextView n1:textStyle="bold" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="10.0dip" n1:layout_marginTop="40.0dip" n1:text="Login details..." />
-            <EditText n1:id="@id/editTextUsername" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="10.0dip" n1:layout_marginTop="10.0dip" n1:layout_marginRight="60.0dip" n1:hint="Username" />
-            <EditText n1:id="@id/editTextPassword" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="10.0dip" n1:layout_marginTop="10.0dip" n1:layout_marginRight="60.0dip" n1:hint="Password" n1:ems="10" n1:inputType="textPassword" />
-            <TextView n1:textStyle="bold" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="10.0dip" n1:layout_marginTop="40.0dip" n1:layout_marginRight="60.0dip" n1:text="Storage Location Details..." />
-            <EditText n1:id="@id/editTextRemoteDir" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="10.0dip" n1:layout_marginTop="10.0dip" n1:layout_marginRight="60.0dip" n1:layout_marginBottom="50.0dip" n1:hint="Default Remote Directory" />
+    <ScrollView n1:layout_width="fill_parent"
+     n1:layout_height="fill_parent">
+
+        <LinearLayout 
+        n1:orientation="vertical"
+        n1:layout_width="fill_parent"
+        n1:layout_height="fill_parent">
+
+            <TextView
+            n1:textStyle="bold"
+            n1:layout_width="wrap_content"
+            n1:layout_height="wrap_content"
+            n1:layout_marginLeft="10.0dip"
+            n1:layout_marginTop="40.0dip"
+            n1:text="Server Details..." />
+
+            <EditText
+            n1:id="@id/editTextServerName"
+            n1:layout_width="fill_parent"
+            n1:layout_height="wrap_content"
+            n1:layout_marginLeft="10.0dip"
+            n1:layout_marginTop="10.0dip"
+            n1:layout_marginRight="60.0dip"
+            n1:hint="Server Name" />
+
+            <EditText
+            n1:id="@id/editTextHostName"
+            n1:layout_width="fill_parent"
+            n1:layout_height="wrap_content"
+            n1:layout_marginLeft="10.0dip"
+            n1:layout_marginTop="20.0dip"
+            n1:layout_marginRight="60.0dip"
+            n1:hint="Host Name  ( IP Address )" />
+
+            <EditText
+            n1:id="@id/editTextPort"
+            n1:layout_width="150.0dip"
+            n1:layout_height="wrap_content"
+            n1:layout_marginLeft="10.0dip"
+            n1:layout_marginTop="10.0dip"
+            n1:layout_marginRight="60.0dip"
+            n1:hint="Port (Default:21)"
+            n1:ems="10"
+            n1:inputType="number" />
+
+            <TextView
+            n1:textStyle="bold"
+            n1:layout_width="wrap_content"
+            n1:layout_height="wrap_content"
+            n1:layout_marginLeft="10.0dip"
+            n1:layout_marginTop="40.0dip" 
+            n1:text="Login details..." />
+
+            <EditText 
+            n1:id="@id/editTextUsername" 
+            n1:layout_width="fill_parent" 
+            n1:layout_height="wrap_content" 
+            n1:layout_marginLeft="10.0dip" 
+            n1:layout_marginTop="10.0dip" 
+            n1:layout_marginRight="60.0dip" 
+            n1:hint="Username" />
+
+            <EditText
+            n1:id="@id/editTextPassword"
+            n1:layout_width="fill_parent"
+            n1:layout_height="wrap_content" 
+            n1:layout_marginLeft="10.0dip" 
+            n1:layout_marginTop="10.0dip" 
+            n1:layout_marginRight="60.0dip" 
+            n1:hint="Password" n1:ems="10" 
+            n1:inputType="textPassword" />
+
+            <TextView n1:textStyle="bold" 
+            n1:layout_width="wrap_content" 
+            n1:layout_height="wrap_content" 
+            n1:layout_marginLeft="10.0dip" 
+            n1:layout_marginTop="40.0dip" 
+            n1:layout_marginRight="60.0dip" 
+            n1:text="Storage Location Details..." />
+
+            <EditText
+            n1:id="@id/editTextRemoteDir" 
+            n1:layout_width="fill_parent" 
+            n1:layout_height="wrap_content" 
+            n1:layout_marginLeft="10.0dip" 
+            n1:layout_marginTop="10.0dip" 
+            n1:layout_marginRight="60.0dip" 
+            n1:layout_marginBottom="50.0dip" 
+            n1:hint="Default Remote Directory" />
+            
         </LinearLayout>
     </ScrollView>
 </LinearLayout>

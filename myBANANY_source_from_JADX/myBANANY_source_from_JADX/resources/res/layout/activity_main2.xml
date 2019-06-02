@@ -1,10 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="#c98533" android:layout_width="match_parent" android:layout_height="match_parent">
-    <android.support.v7.widget.Toolbar android:theme="@style/ThemeOverlay.AppCompat.ActionBar" android:id="@+id/mainToolbar" android:background="#a06230" android:layout_width="match_parent" android:layout_height="?attr/actionBarSize" NOT_FOUND_NS_0x18_http://schemas.android.com/apk/res-auto:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
-    <LinearLayout android:orientation="vertical" android:id="@+id/noitemsLinearLayout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="100dp" android:layout_marginRight="10dp">
-        <Button android:textSize="30sp" android:id="@+id/ConnectButton" android:background="#ff181513" android:visibility="visible" android:layout_width="match_parent" android:layout_height="64dp" android:text="CONNECT" android:layout_weight="1"/>
-        <TextView android:textSize="30dp" android:gravity="center" android:layout_gravity="center" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="20dp" android:text="Welcome to myBANANY"/>
-        <TextView android:textSize="30dp" android:gravity="center" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Upon connecting, make sure you are connected to BANANY Network!"/>
+
+<LinearLayout
+ xmlns:android="http://schemas.android.com/apk/res/android" 
+ android:orientation="vertical" 
+ android:background="#c98533" 
+ android:layout_width="match_parent" 
+ android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar 
+    android:theme="@style/ThemeOverlay.AppCompat.ActionBar" 
+    android:id="@+id/mainToolbar" 
+    android:background="#a06230" 
+    android:layout_width="match_parent" 
+    android:layout_height="?attr/actionBarSize" NOT_FOUND_NS_0x18_http://schemas.android.com/apk/res-auto:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+    
+    <LinearLayout 
+    android:orientation="vertical" 
+    android:id="@+id/noitemsLinearLayout" 
+    android:visibility="gone" 
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content" 
+    android:layout_marginLeft="10dp" 
+    android:layout_marginTop="100dp" 
+    android:layout_marginRight="10dp">
+
+        <Button 
+        android:textSize="30sp" 
+        android:id="@+id/ConnectButton" 
+        android:background="#ff181513" 
+        android:visibility="visible" 
+        android:layout_width="match_parent" 
+        android:layout_height="64dp" 
+        android:text="CONNECT" 
+        android:layout_weight="1"/>
+
+        <TextView 
+        android:textSize="30dp" 
+        android:gravity="center" 
+        android:layout_gravity="center" 
+        android:visibility="visible" 
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content" 
+        android:layout_marginBottom="20dp" 
+        android:text="Welcome to myBANANY"/>
+
+        <TextView 
+        android:textSize="30dp" 
+        android:gravity="center" 
+        android:visibility="visible" 
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content" 
+        android:text="Upon connecting, make sure you are connected to BANANY Network!"/>
+
     </LinearLayout>
-    <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@+id/placeholderLinearLayout" android:layout_width="match_parent" android:layout_height="match_parent"/>
+
+    <LinearLayout 
+    android:layout_gravity="center" 
+    android:orientation="horizontal" 
+    android:id="@+id/placeholderLinearLayout" 
+    android:layout_width="match_parent" 
+    android:layout_height="match_parent"/>
 </LinearLayout>

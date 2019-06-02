@@ -1,9 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
-    <LinearLayout android:orientation="vertical" android:background="#181513" android:layout_width="match_parent" android:layout_height="match_parent">
-        <ImageView android:layout_gravity="center_horizontal" android:id="@+id/imageView" android:layout_width="305dp" android:layout_height="224dp" android:src="@drawable/ic_launcher"/>
-        <TextView android:textSize="25dp" android:layout_gravity="center_horizontal" android:id="@+id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="20dp" android:text="myBanany is a tool that connect your phone to the BANANY via Network"/>
-        <TextView android:textSize="20dp" android:layout_gravity="center_horizontal" android:id="@+id/textView3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="Developed by BANANY R D"/>
-        <TextView android:layout_gravity="center_horizontal" android:id="@+id/textView4" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20dp" android:text="Version 1.0"/>
+<ScrollView
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+    <LinearLayout
+     android:orientation="vertical" 
+     android:background="#181513" 
+     android:layout_width="match_parent" 
+     android:layout_height="match_parent">
+
+        <ImageView 
+        android:layout_gravity="center_horizontal" 
+        android:id="@+id/imageView" 
+        android:layout_width="305dp" 
+        android:layout_height="224dp" 
+        android:src="@drawable/ic_launcher"/>
+
+        <TextView 
+        android:textSize="25dp" 
+        android:layout_gravity="center_horizontal" 
+        android:id="@+id/textView2" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:layout_margin="20dp" 
+        android:text="myBanany is a tool that connect your phone to the BANANY via Network"/>
+
+        <TextView
+         android:textSize="20dp" 
+         android:layout_gravity="center_horizontal" 
+         android:id="@+id/textView3" 
+         android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+         android:layout_marginTop="10dp" 
+         android:text="Developed by BANANY R D"/>
+
+        <TextView 
+        android:layout_gravity="center_horizontal" 
+        android:id="@+id/textView4" 
+        android:visibility="visible" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:layout_marginBottom="20dp" 
+        android:text="Version 1.0"/>
+        
     </LinearLayout>
 </ScrollView>
