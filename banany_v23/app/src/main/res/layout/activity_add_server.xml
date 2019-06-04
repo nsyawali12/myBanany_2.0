@@ -1,9 +1,117 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".AddServerActivity">
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".AddServerActivity"
+    android:orientation="vertical"
+    android:background="@android:color/holo_green_light"
+    >
 
-</android.support.constraint.ConstraintLayout>
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_marginLeft="10.0dp"
+                android:layout_marginTop="40.0dp"
+                android:text="Server Details...."
+                />
+
+            <EditText
+                android:id="@+id/editTextServerName"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginTop="10.0dip"
+                android:layout_marginRight="60.0dp"
+                android:hint="Server name"
+                />
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="60.0dip"
+                android:layout_marginTop="20.0dip"
+                android:layout_marginRight="60.0dip"
+                android:hint="Host Name (IP Address)"
+                />
+            
+            <EditText
+                android:id="@+id/editTextPort"
+                android:layout_width="150.0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginTop="10.0dip"
+                android:layout_marginRight="60.0dip"
+                android:hint="Port (Default:21)"
+                android:ems="10"
+                android:inputType="number"
+                />
+            
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.dip"
+                android:layout_marginTop="40.0dip"
+                android:text="Login details...."
+                />
+
+            <EditText
+                android:id="@+id/editTextUsername"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginTop="10.0dip"
+                android:layout_marginRight="60.0dip"
+                android:hint="Username"
+                />
+
+            <EditText
+                android:id="@+id/editTextPassword"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dp"
+                android:layout_marginTop="10.0dip"
+                android:layout_marginRight="60.0dip"
+                android:hint="Password"
+                android:ems="10"
+                android:inputType="textPassword"
+                />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginTop="40.0dip"
+                android:layout_marginRight="60.0dip"
+                android:text="Storage Location Details...."/>
+
+            <EditText
+                android:id="@+id/editTextRemoteDir"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dp"
+                android:layout_marginTop="10.0dp"
+                android:layout_marginRight="60.0dip"
+                android:layout_marginBottom="50.0dip"
+                android:hint="Defult Remote Directory"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
