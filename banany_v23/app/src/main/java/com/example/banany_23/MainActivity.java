@@ -116,7 +116,7 @@ public class MainActivity extends AppCompatActivity {
             linearLayout1.setVisibility(0);
             linearLayout2.setVisibility(8);
         } else {
-            linearLayout1.setVisibility(8);\
+            linearLayout1.setVisibility(8);
             linearLayout2.setVisibility(0);
         }
         Iterator it = this.serverList.iterator();
